@@ -1,6 +1,6 @@
 import requests
 import re
-b = input("备案号：")
+b = input("备案号/域名：")
 url = f"https://www.beianx.cn/search/{b}"
 header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0"
